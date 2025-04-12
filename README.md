@@ -1,6 +1,7 @@
 **SQL Project: Analyzing Unicorn Companies**
 
 **Project Overview**
+
 This project involves analyzing a dataset of unicorn companies—privately held startups valued at over $1 billion as of November 2021. Using SQL, I performed data cleaning, transformation, and analysis to uncover trends in valuations, sectors, countries, and investor influence.
 
 **Key Features**
