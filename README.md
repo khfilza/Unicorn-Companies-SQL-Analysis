@@ -4,6 +4,7 @@
 
 This project involves analyzing a dataset of unicorn companies—privately held startups valued at over $1 billion as of November 2021. Using SQL, I performed data cleaning, transformation, and analysis to uncover trends in valuations, sectors, countries, and investor influence.
 
+
 **Key Features**
 
 🔹 Data Cleaning & Transformation
@@ -23,6 +24,7 @@ This project involves analyzing a dataset of unicorn companies—privately held 
 * Studied sector-wise and country-wise trends over time.
 * Investigated investor portfolios to find key players.
 
+
 **Dataset Structure**
 
 The dataset includes:
@@ -34,6 +36,7 @@ Founded Year: Year of establishment
 Select Investors: Key investors (comma-separated)
 Revenue (Billion USD): Annual revenue
 Employees: Workforce size
+
 
 **SQL Techniques Used**
 
@@ -49,12 +52,14 @@ GROUP BY, COUNT, AVG, MAX, MIN, ORDER BY, WHERE
 🔹 Trend Analysis:
 FLOOR(founded_year/10)*10 AS decade  -- Grouping by decades  
 
+
 **Key Findings**
 
 🌍 Top Countries: The US, China, and UK dominate in unicorn count.
 💡 Top Sectors: FinTech, AI, and E-commerce have the highest valuations.
 📈 Growth Trends: Companies founded post-2010 show rapid growth.
 💰 Investor Influence: Sequoia Capital and Andreessen Horowitz are top investors.
+
 
 **Challenges & Solutions**
 
@@ -64,6 +69,7 @@ FLOOR(founded_year/10)*10 AS decade  -- Grouping by decades
 
 📊 Decade-wise Comparison:
 * Used FLOOR(founded_year/10)*10 to group companies by founding decades.
+
 
 **Credits**
 
